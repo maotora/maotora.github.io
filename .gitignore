@@ -1,2 +1,3 @@
 node_modules
 *.sgr*?
+package-lock.json
