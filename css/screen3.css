@@ -1,0 +1,335 @@
+@media (max-width: 1240px) {
+
+    .screen3 {
+        height: 100vh
+    }
+}
+
+@media (min-width: 1240px) {
+
+    .screen3 {
+        height: 70vh
+    }
+}
+
+@media (max-height: 639px) {
+
+    .screen3 {
+        height: 150vh
+    }
+
+    .screen3 a {
+        font-size: .8em
+    }
+
+    .screen3 h1 {
+        font-size: 1em
+    }
+}
+
+.screen3 .wrapper {
+    padding: 1em;
+    width: 100%;
+    height: calc(99.9% * 1.6/2 - (30px - 30px * 1.6/2));
+    margin-bottom: 30px
+}
+
+.screen3 .wrapper:last-child {
+    margin-bottom: 0
+}
+
+@media (max-width: 1240px) {
+
+    .screen3 .wrapper > section {
+        width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+        margin-bottom: 15px
+    }
+
+    .screen3 .wrapper > section:nth-child(1n) {
+        float: left;
+        margin-right: 30px;
+        clear: none
+    }
+
+    .screen3 .wrapper > section:last-child {
+        margin-right: 0
+    }
+
+    .screen3 .wrapper > section:nth-child(2n) {
+        margin-right: 0;
+        float: right
+    }
+
+    .screen3 .wrapper > section:nth-child(2n + 1) {
+        clear: both
+    }
+}
+
+@media (min-width: 1240px) {
+
+    .screen3 .wrapper > section {
+        width: calc(99.9% * 1/3 - (30px - 30px * 1/3))
+    }
+
+    .screen3 .wrapper > section:nth-child(1n) {
+        float: left;
+        margin-right: 30px;
+        clear: none
+    }
+
+    .screen3 .wrapper > section:last-child {
+        margin-right: 0
+    }
+
+    .screen3 .wrapper > section:nth-child(3n) {
+        margin-right: 0;
+        float: right
+    }
+
+    .screen3 .wrapper > section:nth-child(3n + 1) {
+        clear: both
+    }
+}
+
+@media (max-width: 639px) {
+
+    .screen3 .wrapper > section {
+        width: calc(99.9% * 1/1 - (30px - 30px * 1/1))
+    }
+
+    .screen3 .wrapper > section:nth-child(1n) {
+        float: left;
+        margin-right: 30px;
+        clear: none
+    }
+
+    .screen3 .wrapper > section:last-child {
+        margin-right: 0
+    }
+
+    .screen3 .wrapper > section:nth-child(0n) {
+        float: right
+    }
+}
+
+.gitea {
+    border: 2px solid rgba(0, 0, 0, .7);
+    padding: 2em;
+    padding-top: 0;
+    text-align: center
+}
+
+.gitea header {
+    width: 100%;
+    height: calc(99.9% * .5/2 - (30px - 30px * .5/2));
+    margin-bottom: 30px;
+    background: black
+}
+
+.gitea header:last-child {
+    margin-bottom: 0
+}
+
+.gitea .view {
+    width: 100%;
+    height: calc(99.9% * 1.5/2 - (30px - 30px * 1.5/2));
+    margin-bottom: 30px
+}
+
+.gitea .view:last-child {
+    margin-bottom: 0
+}
+
+.gitea h1 {
+    border-bottom: 2px solid rgba(0, 0, 0, .7);
+    margin-top: 0;
+    font-size: 2em;
+    color: white;
+    line-height: 1.5em
+}
+
+.gitea p {
+    font-size: 1.3em;
+    line-height: 1em;
+    margin-bottom: 2.5em
+}
+
+.gitea .gitea_btn {
+    margin: 1em;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    background: black
+}
+
+@media (max-width: 639px) {
+
+    .gitea {
+        padding: .5em;
+        padding-top: 0
+    }
+
+    .gitea h1 {
+        font-size: 1.5em
+    }
+}
+
+.footer {
+    width: 100%;
+    height: calc(99.9% * .4/2 - (15px - 15px * .4/2));
+    margin-bottom: 15px
+}
+
+.footer:last-child {
+    margin-bottom: 0
+}
+
+.footer h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.4em;
+    margin: 0
+}
+
+.footer li {
+    float: left;
+    list-style: none;
+    margin-right: .7em
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white
+}
+
+.credits {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .9)));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .9) 100%);
+    padding: 0 1em;
+    padding-top: 1em;
+    height: 100%
+}
+
+@media (max-width: 1240px) {
+
+    .credits {
+        width: calc(99.9% * 1/2 - (0px - 0px * 1/2))
+    }
+
+    .credits:nth-child(1n) {
+        float: left;
+        margin-right: 0px;
+        clear: none
+    }
+
+    .credits:last-child {
+        margin-right: 0
+    }
+
+    .credits:nth-child(2n) {
+        margin-right: 0;
+        float: right
+    }
+
+    .credits:nth-child(2n + 1) {
+        clear: both
+    }
+}
+
+@media (min-width: 1240px) {
+
+    .credits {
+        width: calc(99.9% * .8/2 - (0px - 0px * .8/2))
+    }
+
+    .credits:nth-child(1n) {
+        float: left;
+        margin-right: 0px;
+        clear: none
+    }
+
+    .credits:last-child {
+        margin-right: 0
+    }
+
+    .credits:nth-child(2n) {
+        margin-right: 0;
+        float: right
+    }
+
+    .credits:nth-child(2n + 1) {
+        clear: both
+    }
+}
+
+.credits ul {
+    padding: 0
+}
+
+.copyrights {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .9)));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .9) 100%);
+    position: relative;
+    height: 100%
+}
+
+@media (max-width: 1240px) {
+
+    .copyrights {
+        width: calc(99.9% * 1/2 - (0px - 0px * 1/2))
+    }
+
+    .copyrights:nth-child(1n) {
+        float: left;
+        margin-right: 0px;
+        clear: none
+    }
+
+    .copyrights:last-child {
+        margin-right: 0
+    }
+
+    .copyrights:nth-child(2n) {
+        margin-right: 0;
+        float: right
+    }
+
+    .copyrights:nth-child(2n + 1) {
+        clear: both
+    }
+}
+
+@media (min-width: 1240px) {
+
+    .copyrights {
+        width: calc(99.9% * 1.2/2 - (0px - 0px * 1.2/2))
+    }
+
+    .copyrights:nth-child(1n) {
+        float: left;
+        margin-right: 0px;
+        clear: none
+    }
+
+    .copyrights:last-child {
+        margin-right: 0
+    }
+
+    .copyrights:nth-child(2n) {
+        margin-right: 0;
+        float: right
+    }
+
+    .copyrights:nth-child(2n + 1) {
+        clear: both
+    }
+}
+
+.copyrights p {
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    bottom: 0;
+    left: 20%
+}
